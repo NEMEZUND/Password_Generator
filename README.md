@@ -1,7 +1,11 @@
-import PySimpleGUI as sg  # Импорт библиотеки PySimpleGUI для создания графического интерфейса
-import itertools  # Импорт модуля itertools для работы с итераторами и комбинаторикой
-import string  # Импорт модуля string для работы со строками
-import threading  # Импорт модуля threading для создания потоков
+# Импорт библиотеки PySimpleGUI для создания графического интерфейса
+import PySimpleGUI as sg
+# Импорт модуля itertools для работы с итераторами и комбинаторикой
+import itertools
+# Импорт модуля string для работы со строками
+import string
+# Импорт модуля threading для создания потоков
+import threading  
 
 def generate_passwords(params, file_path, status_text, progress_bar, stop_event):
     # Сбор символов в зависимости от выбранных параметров
